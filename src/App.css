@@ -1,0 +1,45 @@
+* {
+  /* border: 1px solid red; */
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  border: 1px solid black;
+}
+
+.input-mail input{
+  padding: 0.5rem 1rem;
+  outline: none;
+  margin: 0.3rem;
+  border: 1px solid rgb(231, 231, 231);
+}
+
+.inp-pass input{
+  padding: 0.5rem 1rem;
+  outline: none;
+  margin: 0.3rem;
+  border: 1px solid rgb(231, 231, 231);
+}
+
+.inp-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inp-btn input {
+  width: 100%;
+  padding: 0.5rem 0;
+  margin: 1rem;
+  background: white;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0);
+}
